@@ -156,7 +156,7 @@ function CopyWebpackPluginClone(patterns = [], options = {}) {
         };
 
         if (compiler.hooks) {
-            const plugin = { name: 'CopyPlugin' };
+            const plugin = { name: 'CopyWebpackPluginClone' };
 
             compiler.hooks.emit.tapAsync(plugin, emit);
             compiler.hooks.afterEmit.tapAsync(plugin, afterEmit);
