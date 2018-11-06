@@ -10,8 +10,8 @@
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <h1>Copy Webpack Plugin</h1>
-  <p>Copies individual files or entire directories to the build directory</p>
+  <h1>Copy Webpack Plugin Clone</h1>
+  <p>Simple fork of the <a href="https://github.com/webpack-contrib/copy-webpack-plugin">Copy Webpack Plugin</a>: Copies individual files or entire directories to the build directory</p>
 </div>
 
 <h2 align="center">Install</h2>

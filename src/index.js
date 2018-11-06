@@ -2,7 +2,7 @@ import path from 'path';
 import preProcessPattern from './preProcessPattern';
 import processPattern from './processPattern';
 
-function CopyWebpackPlugin(patterns = [], options = {}) {
+function CopyWebpackPluginClone(patterns = [], options = {}) {
     if (!Array.isArray(patterns)) {
         throw new Error('[copy-webpack-plugin] patterns must be an array');
     }
@@ -171,5 +171,5 @@ function CopyWebpackPlugin(patterns = [], options = {}) {
     };
 }
 
-CopyWebpackPlugin['default'] = CopyWebpackPlugin;
-module.exports = CopyWebpackPlugin;
+CopyWebpackPluginClone['default'] = CopyWebpackPluginClone;
+module.exports = CopyWebpackPluginClone;
